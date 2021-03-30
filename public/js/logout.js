@@ -9,7 +9,7 @@ $("document").ready(function() {
         });
       }
       else {
-        $(".logout").html("<div class = 'badAlert'>Something Went Wrong. Were you logged in?</div>"); 
+        $(".logout").html("<div class = 'badAlert'>Something Went Wrong. Were you signed in?</div>"); 
         $.get('/header').always(function(response) {
           $(".header").html(response);
         });

@@ -38,7 +38,7 @@ $("document").ready(function() {
                         $(".main").html("");
                     }
                     else if (!response.ok && response.error == "userExistsError") {
-                        $(".alertSpace").html(`<div class = "badAlert">An account with that email or name already exists. You should <a href = '/login'>Log In</a></div>`);
+                        $(".alertSpace").html(`<div class = "badAlert">An account with that email or name already exists. You should <a href = '/signin'>Sign In</a></div>`);
                     }
                 });
             
