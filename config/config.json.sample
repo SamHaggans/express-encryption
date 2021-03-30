@@ -1,0 +1,7 @@
+{
+	"dbUser": "user",
+	"dbPw": "password",
+	"dbName": "name",
+	"dbHost": "host",
+	"sessionSecret": "secret"
+}
