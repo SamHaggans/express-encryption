@@ -13,7 +13,7 @@ const routes = require("./routing/routes.js")(dirname);
 const posts = require("./routing/posts.js")(dirname);
 
 const app = express();
-const port = process.env.PORT || 3021;
+const port = process.env.PORT || 3678;
 
 let session = require('express-session');
 let MySQLStore = require('express-mysql-session')(session);
